@@ -1,0 +1,56 @@
+head {
+    background-color: black;
+}
+h1 {
+    color: goldenrod;
+    font-family: Impact;
+    font-size: 50px;
+    text-align: center;
+}
+a {
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+h2 {
+    color: mediumpurple;
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    color: crimson;
+    font-family: Georgia;
+    font-size: 25px;
+    text-align: left;
+}
+body {
+    background-color: black;
+}
+.bio {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: 1pt,1pt,1pt,1pt;
+    grid-template-rows: 1pt,1pt,1pt,1pt;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+.photo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.text {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.link {
+    text-align: center;
+}
